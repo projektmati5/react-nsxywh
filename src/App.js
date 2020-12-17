@@ -25,10 +25,10 @@ class App extends React.Component {
   }
   
   increment() {
-    this.setState({
+    this.setState(()=>{return{
       counter: this.state.counter + 1,
       drugiCounter: this.state.drugiCounter + 1
-    })
+    }})
   }
   
 wynikIncrement(){
