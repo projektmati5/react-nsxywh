@@ -3,6 +3,15 @@ import "./style.css";
 import 'semantic-ui-css/semantic.min.css'
 
 
+function Przycisk(){
+  return(<button onClick={Komunikat}>Kliknij!</button>)
+}
+
+function Komunikat(){
+  return(alert("Klik"))
+}
+
+
 function AppHeader() {
   return (
     <header className="ui menu">
@@ -24,9 +33,8 @@ function AppHeader() {
 
 function ContactsList() {
   return (
-
-    //for (var i = 0; i < 9; i++)
-    //{i=i;}
+console.log("a"),
+    
 
     <ul className="ui relaxed divided list selection">
     
@@ -41,6 +49,11 @@ function ContactsList() {
         department="Human Resources"
       />
       <ContactItem
+        login="typeofweb3"
+        name="Rick"
+        department="QA"
+      />
+<ContactItem
         login="typeofweb3"
         name="Rick"
         department="QA"
@@ -66,6 +79,7 @@ export default function App() {
   return (
     <div>
       <AppHeader />
+      <Przycisk/>
       <main className="ui main text container">
         <ContactsList />
       </main>
