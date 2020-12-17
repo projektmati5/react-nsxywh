@@ -5,7 +5,7 @@ import 'semantic-ui-css/semantic.min.css'
 
 function AppHeader() {
   return (
-    <header className="ui fixed menu">
+    <header className="ui menu">
       <nav className="ui container">
         <a href="#" className="header item">
           <img
@@ -24,7 +24,12 @@ function AppHeader() {
 
 function ContactsList() {
   return (
+
+    //for (var i = 0; i < 9; i++)
+    //{i=i;}
+
     <ul className="ui relaxed divided list selection">
+    
       <ContactItem
         login="typeofweb1"
         name="Lena"
