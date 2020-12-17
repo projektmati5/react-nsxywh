@@ -1,6 +1,11 @@
 import React from "react";
 import "./style.css";
 
+
+function MojKomponent()
+{return(<div>Siema!</div>)}
+
+
 export default function App() {
   return (
     <div>
@@ -9,3 +14,5 @@ export default function App() {
     </div>
   );
 }
+
+export default MojKomponent;
