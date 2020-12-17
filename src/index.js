@@ -7,4 +7,4 @@ import App from "./App";
 <div id="app"></div>
 
 
-ReactDOM.render(<MojKomponent />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
