@@ -6,6 +6,9 @@ function MojKomponent()
 {return(<div>Siema!</div>)}
 
 
+export default function Czesc3()
+{return(MojKomponent())}
+
 export default function App() {
   return (
     <div>
